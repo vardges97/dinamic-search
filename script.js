@@ -33,14 +33,6 @@ for (let i of products.data) {
   let card = document.createElement("div");
   //Card should have category and should stay hidden initially
   card.classList.add("card", i.category, "hide");
-  //image div
-  let imgContainer = document.createElement("div");
-  imgContainer.classList.add("image-container");
-  //img tag
-  let image = document.createElement("img");
-  image.setAttribute("src", i.image);
-  imgContainer.appendChild(image);
-  card.appendChild(imgContainer);
   //container
   let container = document.createElement("div");
   container.classList.add("container");

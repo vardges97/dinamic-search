@@ -58,15 +58,8 @@
     padding: 1em;
     border-radius: 5px;
     box-shadow: 1em 2em 2.5em rgba(1, 2, 68, 0.08);
-  }
-  .image-container {
-    text-align: center;
-  }
-  img {
-    max-width: 100%;
-    object-fit: contain;
-    height: 15em;
-  }
+    }
+  
   .container {
     padding-top: 1em;
     color: #110f29;
